@@ -7,11 +7,11 @@
     box-sizing: border-box;
 }
 :root {
-    --cor0: #F2F2EB;
-    --cor1: #D9CDBF;
-    --cor2: #BFACA4;
-    --cor3: #8C665E;
-    --cor4: #734E46;
+    --cor0: #D98555;
+    --cor1: #F2A663;
+    --cor2: #F2E6D8;
+    --cor3: #A3C9D9;
+    --cor4: #376B8C;
 }
 body, html {
     background-color: var(--cor4);
@@ -41,7 +41,7 @@ section#login {
 }
 section#login > div#imagem {
     display: block;
-    background: var(--cor4) url(../imagens/science.jpg) no-repeat;
+    background: var(--cor4) url(../imagens/medieval.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
     height: 200px;
@@ -49,4 +49,11 @@ section#login > div#imagem {
 section#login > div#formulario {
     display: block;
     padding: 10px;
+}
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+div#formulario > p {
+    font-size: 0.8em;
 }
