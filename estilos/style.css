@@ -7,11 +7,11 @@
     box-sizing: border-box;
 }
 :root {
-    --cor0: #D98555;
-    --cor1: #F2A663;
-    --cor2: #F2E6D8;
-    --cor3: #A3C9D9;
-    --cor4: #376B8C;
+    --cor0: #F2B705;
+    --cor1: #F29F05;
+    --cor2: #F28705;
+    --cor3: #D93D04;
+    --cor4: #590E01;
 }
 body, html {
     background-color: var(--cor4);
@@ -41,7 +41,7 @@ section#login {
 }    
 section#login > div#imagem {
     display: block;
-    background: var(--cor4) url(../imagens/medieval.jpg) no-repeat;
+    background: var(--cor4) url(../imagens/churrasco.png) no-repeat;
     background-size: cover;
     background-position: center center;
     height: 200px;
